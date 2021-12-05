@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day01\Schulteisz.AdventOfCode2021.Day01.csproj" />
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
