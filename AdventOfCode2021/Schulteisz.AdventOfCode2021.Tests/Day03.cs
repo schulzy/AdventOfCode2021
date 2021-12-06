@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Schulteisz.AdventOfCode2021.Common;
-using Schulteisz.AdventOfCode2021.Day02;
+using Schulteisz.AdventOfCode2021.Day03;
 using Schulteisz.AdventOfCode2021.Interfaces;
 using System.Collections.Generic;
 
@@ -14,7 +14,9 @@ namespace Schulteisz.AdventOfCode2021.Tests
         {
             IContentParser contentParser = new ContentParser();
 
-            Assert.Fail();
+            BinaryDiagnostic sut = new BinaryDiagnostic(contentParser);
+            long result = sut.Run();
+            Assert.AreEqual(2648450, result);
         }
 
         [TestMethod]
@@ -22,15 +24,19 @@ namespace Schulteisz.AdventOfCode2021.Tests
         {
             IContentParser contentParser = new ContentParser();
 
-            Assert.Fail();
+            BinaryDiagnosticHard sut = new BinaryDiagnosticHard(contentParser);
+            long result = sut.Run();
+            Assert.AreEqual(2845944, result);
         }
 
         [TestMethod]
-        public void Task1PreDifined()
+        public void Task2PreDifined()
         {
             IContentParser contentParser = new LocalContentParser();
 
-            Assert.Fail();
+            BinaryDiagnosticHard sut = new BinaryDiagnosticHard(contentParser);
+            long result = sut.Run();
+            Assert.AreEqual(230, result);
         }
 
         internal class LocalContentParser : IContentParser
