@@ -21,8 +21,7 @@ namespace Schulteisz.AdventOfCode2021.Common
                 while (reader.Peek() >= 0)
                 {
                     string? line = reader.ReadLine();
-                    if(!string.IsNullOrEmpty(line))
-                        lines.Add(line);
+                    lines.Add(line);
                 }
             }
             return lines;
