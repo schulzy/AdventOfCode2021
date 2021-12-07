@@ -22,6 +22,7 @@
     <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day02\Schulteisz.AdventOfCode2021.Day02.csproj" />
     <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day03\Schulteisz.AdventOfCode2021.Day03.csproj" />
     <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day04\Schulteisz.AdventOfCode2021.Day04.csproj" />
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day05\Schulteisz.AdventOfCode2021.Day05.csproj" />
     <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj" />
   </ItemGroup>
 

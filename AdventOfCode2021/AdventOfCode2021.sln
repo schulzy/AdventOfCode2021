@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021", "Schulteisz.AdventOfCode2021\Schulteisz.AdventOfCode2021.csproj", "{C9AB6D9E-9A65-4D59-B6D7-53BA682B01E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021", "Schulteisz.AdventOfCode2021\Schulteisz.AdventOfCode2021.csproj", "{C9AB6D9E-9A65-4D59-B6D7-53BA682B01E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Common", "Schulteisz.AdventOfCode2021.Common\Schulteisz.AdventOfCode2021.Common.csproj", "{23B4A607-87A2-4A4A-BE08-630F26DCC099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Common", "Schulteisz.AdventOfCode2021.Common\Schulteisz.AdventOfCode2021.Common.csproj", "{23B4A607-87A2-4A4A-BE08-630F26DCC099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day01", "Schulteisz.AdventOfCode2021.Day01\Schulteisz.AdventOfCode2021.Day01.csproj", "{769035E4-2AC8-4E08-8BEB-9FB61DEE0789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day01", "Schulteisz.AdventOfCode2021.Day01\Schulteisz.AdventOfCode2021.Day01.csproj", "{769035E4-2AC8-4E08-8BEB-9FB61DEE0789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Interfaces", "Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj", "{9FED84C7-4C8B-4981-AACB-B8E01D6620AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Interfaces", "Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj", "{9FED84C7-4C8B-4981-AACB-B8E01D6620AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Tests", "Schulteisz.AdventOfCode2021.Tests\Schulteisz.AdventOfCode2021.Tests.csproj", "{701E422A-94AD-4024-8B21-966105CA5340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Tests", "Schulteisz.AdventOfCode2021.Tests\Schulteisz.AdventOfCode2021.Tests.csproj", "{701E422A-94AD-4024-8B21-966105CA5340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day02", "Schulteisz.AdventOfCode2021.Day02\Schulteisz.AdventOfCode2021.Day02.csproj", "{928F8266-3A41-4146-820A-7500BAC450BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day02", "Schulteisz.AdventOfCode2021.Day02\Schulteisz.AdventOfCode2021.Day02.csproj", "{928F8266-3A41-4146-820A-7500BAC450BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day03", "Schulteisz.AdventOfCode2021.Day03\Schulteisz.AdventOfCode2021.Day03.csproj", "{928AA90D-ACF4-4E07-A17A-2C84F0202F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day03", "Schulteisz.AdventOfCode2021.Day03\Schulteisz.AdventOfCode2021.Day03.csproj", "{928AA90D-ACF4-4E07-A17A-2C84F0202F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day04", "Schulteisz.AdventOfCode2021.Day04\Schulteisz.AdventOfCode2021.Day04.csproj", "{0E6E8C84-1002-4B91-86DE-EDE87913AE90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day04", "Schulteisz.AdventOfCode2021.Day04\Schulteisz.AdventOfCode2021.Day04.csproj", "{0E6E8C84-1002-4B91-86DE-EDE87913AE90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day05", "Schulteisz.AdventOfCode2021.Day05\Schulteisz.AdventOfCode2021.Day05.csproj", "{B6EE5215-61CD-4316-A67E-038BFC46FACB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,14 @@ Global
 		{0E6E8C84-1002-4B91-86DE-EDE87913AE90}.Release|Any CPU.ActiveCfg = Release|x64
 		{0E6E8C84-1002-4B91-86DE-EDE87913AE90}.Release|x64.ActiveCfg = Release|x64
 		{0E6E8C84-1002-4B91-86DE-EDE87913AE90}.Release|x64.Build.0 = Release|x64
+		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Debug|x64.ActiveCfg = Debug|x64
+		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Debug|x64.Build.0 = Debug|x64
+		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Release|x64.ActiveCfg = Release|x64
+		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
