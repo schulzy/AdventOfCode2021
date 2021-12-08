@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day05", "Schulteisz.AdventOfCode2021.Day05\Schulteisz.AdventOfCode2021.Day05.csproj", "{B6EE5215-61CD-4316-A67E-038BFC46FACB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day06", "Schulteisz.AdventOfCode2021.Day06\Schulteisz.AdventOfCode2021.Day06.csproj", "{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,14 @@ Global
 		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Release|x64.ActiveCfg = Release|x64
 		{B6EE5215-61CD-4316-A67E-038BFC46FACB}.Release|x64.Build.0 = Release|x64
+		{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}.Debug|x64.ActiveCfg = Debug|x64
+		{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}.Debug|x64.Build.0 = Debug|x64
+		{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}.Release|x64.ActiveCfg = Release|x64
+		{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
