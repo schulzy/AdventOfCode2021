@@ -14,7 +14,9 @@ namespace Schulteisz.AdventOfCode2021.Tests
         {
             IContentParser contentParser = new ContentParser();
 
-            Assert.Fail();
+            HydrothermalVenture sut = new HydrothermalVenture(contentParser);
+            long result = sut.Run();
+            Assert.AreEqual(4826, result);
         }
 
         [TestMethod]
@@ -22,16 +24,29 @@ namespace Schulteisz.AdventOfCode2021.Tests
         {
             IContentParser contentParser = new ContentParser();
 
-            Assert.Fail();
+            HydrothermalVentureHard sut = new HydrothermalVentureHard(contentParser);
+            long result = sut.Run();
+            Assert.AreEqual(16793, result);
         }
 
         [TestMethod]
         public void Task1PreDifined()
         {
             IContentParser contentParser = new LocalContentParser();
+
             HydrothermalVenture sut = new HydrothermalVenture(contentParser);
             long result = sut.Run();
             Assert.AreEqual(5, result);
+        }
+
+        [TestMethod]
+        public void Task2PreDifined()
+        {
+            IContentParser contentParser = new LocalContentParser();
+
+            HydrothermalVentureHard sut = new HydrothermalVentureHard(contentParser);
+            long result = sut.Run();
+            Assert.AreEqual(12, result);
         }
 
         internal class LocalContentParser : IContentParser

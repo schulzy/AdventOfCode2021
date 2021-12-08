@@ -15,7 +15,8 @@ namespace Schulteisz.AdventOfCode2021.Day05
 
         public long Run()
         {
-            throw new NotImplementedException();
+            VentsFinder ventsFinder = new VentsFinder(_contentParser.GetLines("Task.txt"));
+            return ventsFinder.GetDangerousPointCount(false);
         }
     }
 }
