@@ -15,7 +15,20 @@ namespace Schulteisz.AdventOfCode2021.Day06
 
         public long Run()
         {
-            throw new NotImplementedException();
+            HatcheryCounter fishCreator = new HatcheryCounter();
+            _contentParser
+                ?.GetLines("Task.txt")
+                ?.FirstOrDefault()
+                ?.Split(",")
+                .ToList()
+                .ForEach(x => fishCreator.AddFish(int.Parse(x)));
+
+            for (int i = 0; i < 256; i++)
+            {
+                fishCreator.NextDay();
+            }
+
+            return fishCreator.FishCount;
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             Lanternfish sut = new Lanternfish(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(4826, result);
+            Assert.AreEqual(346063, result);
         }
 
         [TestMethod]
@@ -36,7 +36,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             Lanternfish sut = new Lanternfish(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(5, result);
+            Assert.AreEqual(5934, result);
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             LanternfishHard sut = new LanternfishHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(12, result);
+            Assert.AreEqual(26984457539, result);
         }
 
         internal class LocalContentParser : IContentParser
