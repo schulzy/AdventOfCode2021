@@ -30,7 +30,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
         }
 
         [TestMethod]
-        public void Task1PreDifined()
+        public void Task1Predefined()
         {
             IContentParser contentParser = new LocalContentParser();
 
@@ -40,7 +40,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
         }
 
         [TestMethod]
-        public void Task2PreDifined()
+        public void Task2Predefined()
         {
             IContentParser contentParser = new LocalContentParser();
 
