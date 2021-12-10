@@ -15,7 +15,16 @@ namespace Schulteisz.AdventOfCode2021.Day07
 
         public long Run()
         {
-            throw new NotImplementedException();
+            FuelCounter fuelCounter = new FuelCounter();
+            _contentParser
+                ?.GetLines("Task.txt")
+                ?.FirstOrDefault()
+                ?.Split(",")
+                .ToList()
+                .ForEach(x => fuelCounter.AddPositon(int.Parse(x)));
+
+            fuelCounter.ProcessFuel();
+            return fuelCounter.IdealFuelConsumtion;
         }
     }
 }

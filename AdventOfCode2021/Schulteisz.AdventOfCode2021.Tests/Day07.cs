@@ -16,7 +16,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             TheTreacheryOfWhales sut = new TheTreacheryOfWhales(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(346063, result);
+            Assert.AreEqual(349812, result);
         }
 
         [TestMethod]
@@ -26,7 +26,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             TheTreacheryOfWhalesHard sut = new TheTreacheryOfWhalesHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(16793, result);
+            Assert.AreEqual(99763899, result);
         }
 
         [TestMethod]
@@ -36,7 +36,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             TheTreacheryOfWhales sut = new TheTreacheryOfWhales(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(5934, result);
+            Assert.AreEqual(37, result);
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             TheTreacheryOfWhalesHard sut = new TheTreacheryOfWhalesHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(26984457539, result);
+            Assert.AreEqual(168, result);
         }
 
         internal class LocalContentParser : IContentParser

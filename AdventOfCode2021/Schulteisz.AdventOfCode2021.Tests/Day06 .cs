@@ -26,7 +26,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             LanternfishHard sut = new LanternfishHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(16793, result);
+            Assert.AreEqual(1572358335990, result);
         }
 
         [TestMethod]
