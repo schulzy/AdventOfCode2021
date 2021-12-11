@@ -4,18 +4,19 @@ namespace Schulteisz.AdventOfCode2021.Day08
 {
     public class SevenSegmentSearch : IDailyTask  
     {
-        private IContentParser contentParser;
+        private IContentParser _contentParser;
 
         public SevenSegmentSearch(IContentParser contentParser)
         {
-            this.contentParser = contentParser;
+            _contentParser = contentParser;
         }
 
         public string Name => "Seven Segment Search";
 
         public long Run()
         {
-            throw new NotImplementedException();
+            SegmentDisplayManager segmentDisplayManager = new SegmentDisplayManager(_contentParser.GetLines("Task.txt"));
+            return segmentDisplayManager.GetEasyNumbers();
         }
     }
 }

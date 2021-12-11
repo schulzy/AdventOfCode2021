@@ -16,7 +16,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             SevenSegmentSearch sut = new SevenSegmentSearch(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(349812, result);
+            Assert.AreEqual(488, result);
         }
 
         [TestMethod]
@@ -26,7 +26,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             SevenSegmentSearchHard sut = new SevenSegmentSearchHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(99763899, result);
+            Assert.AreEqual(1040429, result);
         }
 
         [TestMethod]
@@ -36,7 +36,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             SevenSegmentSearch sut = new SevenSegmentSearch(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(37, result);
+            Assert.AreEqual(26, result);
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             SevenSegmentSearchHard sut = new SevenSegmentSearchHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(168, result);
+            Assert.AreEqual(61229, result);
         }
 
         internal class LocalContentParser : IContentParser
@@ -55,7 +55,16 @@ namespace Schulteisz.AdventOfCode2021.Tests
             {
                 return new List<string>
                 {
-                    "16,1,2,0,4,2,7,1,2,14"
+                    "be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb | fdgacbe cefdb cefbgd gcbe",
+"edbfga begcd cbg gc gcadebf fbgde acbgfd abcde gfcbed gfec | fcgedb cgb dgebacf gc",
+"fgaebd cg bdaec gdafb agbcfd gdcbef bgcad gfac gcb cdgabef | cg cg fdcagb cbg",
+"fbegcd cbd adcefb dageb afcb bc aefdc ecdab fgdeca fcdbega | efabcd cedba gadfec cb",
+"aecbfdg fbg gf bafeg dbefa fcge gcbea fcaegb dgceab fcbdga | gecf egdcabf bgf bfgea",
+"fgeab ca afcebg bdacfeg cfaedg gcfdb baec bfadeg bafgc acf | gebdcfa ecba ca fadegcb",
+"dbcfg fgd bdegcaf fgec aegbdf ecdfab fbedc dacgb gdcebf gf | cefg dcbef fcge gbcadfe",
+"bdfegc cbegaf gecbf dfcage bdacg ed bedf ced adcbefg gebcd | ed bcgafe cdgba cbgef",
+"egadfb cdbfeg cegd fecab cgb gbdefca cg fgcdab egfdb bfceg | gbdfcae bgc cg cgb",
+"gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc | fgae cfgab fg bagce"
                 };
             }
         }
