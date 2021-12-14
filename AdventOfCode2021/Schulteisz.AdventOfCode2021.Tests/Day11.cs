@@ -1,20 +1,20 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Schulteisz.AdventOfCode2021.Common;
-using Schulteisz.AdventOfCode2021.Day10;
+using Schulteisz.AdventOfCode2021.Day11;
 using Schulteisz.AdventOfCode2021.Interfaces;
 using System.Collections.Generic;
 
 namespace Schulteisz.AdventOfCode2021.Tests
 {
     [TestClass]
-    public class Day10
+    public class Day11
     {
         [TestMethod]
         public void Task1()
         {
             IContentParser contentParser = new ContentParser();
 
-            SyntaxScoring sut = new SyntaxScoring(contentParser);
+            DumboOctopus sut = new DumboOctopus(contentParser);
             long result = sut.Run();
             Assert.AreEqual(369105, result);
         }
@@ -24,7 +24,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
         {
             IContentParser contentParser = new ContentParser();
 
-            SyntaxScoringHard sut = new SyntaxScoringHard(contentParser);
+            DumboOctopusHard sut = new DumboOctopusHard(contentParser);
             long result = sut.Run();
             Assert.AreEqual(3999363569, result);
         }
@@ -34,7 +34,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
         {
             IContentParser contentParser = new LocalContentParser();
 
-            SyntaxScoring sut = new SyntaxScoring(contentParser);
+            DumboOctopus sut = new DumboOctopus(contentParser);
             long result = sut.Run();
             Assert.AreEqual(26397, result);
         }
@@ -44,7 +44,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
         {
             IContentParser contentParser = new LocalContentParser();
 
-            SyntaxScoringHard sut = new SyntaxScoringHard(contentParser);
+            DumboOctopusHard sut = new DumboOctopusHard(contentParser);
             long result = sut.Run();
             Assert.AreEqual(288957, result);
         }
@@ -55,16 +55,16 @@ namespace Schulteisz.AdventOfCode2021.Tests
             {
                 return new List<string>
                 {
-                    "[({(<(())[]>[[{[]{<()<>>",
-"[(()[<>])]({[<{<<[]>>(",
-"{([(<{}[<>[]}>{[]{[(<()>",
-"(((({<>}<{<{<>}{[]{[]{}",
-"[[<[([]))<([[{}[[()]]]",
-"[{[{({}]{}}([{[{{{}}([]",
-"{<[[]]>}<{[{[{[]{()[[[]",
-"[<(<(<(<{}))><([]([]()",
-"<{([([[(<>()){}]>(<<{{",
-"<{([{{}}[<[[[<>{}]]]>[]]"
+                    "5483143223",
+"2745854711",
+"5264556173",
+"6141336146",
+"6357385478",
+"4167524645",
+"2176841721",
+"6882881134",
+"4846848554",
+"5283751526"
                 };
             }
         }
