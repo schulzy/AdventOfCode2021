@@ -8,11 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Tast.txt" />
+    <None Remove="Task.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Tast.txt" />
+    <EmbeddedResource Include="Task.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

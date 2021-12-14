@@ -2,11 +2,11 @@
 {
     internal class CaveCreator
     {
-        public List<string> _list;
+        public IList<string> _list;
         int[,] _points;
         List<Point> Points { get; set; } = new List<Point>();
 
-        public CaveCreator(List<string> list)
+        public CaveCreator(IList<string> list)
         {
             _list = list;
             _points = new int[list.First().Length, list.Count];
