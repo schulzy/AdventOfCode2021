@@ -15,7 +15,6 @@
 
         public void InitializePoints()
         {
-            int index = 0;
             for (int i = 0; i < _points.GetLength(0); i++)
             {
                 for (int j = 0; j < _points.GetLength(1); j++)

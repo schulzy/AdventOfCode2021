@@ -16,7 +16,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             DumboOctopus sut = new DumboOctopus(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(369105, result);
+            Assert.AreEqual(1735, result);
         }
 
         [TestMethod]
@@ -26,7 +26,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             DumboOctopusHard sut = new DumboOctopusHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(3999363569, result);
+            Assert.AreEqual(400, result);
         }
 
         [TestMethod]
@@ -36,7 +36,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             DumboOctopus sut = new DumboOctopus(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(26397, result);
+            Assert.AreEqual(1656, result);
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             DumboOctopusHard sut = new DumboOctopusHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(288957, result);
+            Assert.AreEqual(195, result);
         }
 
         internal class LocalContentParser : IContentParser

@@ -21,17 +21,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day05", "Schulteisz.AdventOfCode2021.Day05\Schulteisz.AdventOfCode2021.Day05.csproj", "{B6EE5215-61CD-4316-A67E-038BFC46FACB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day06", "Schulteisz.AdventOfCode2021.Day06\Schulteisz.AdventOfCode2021.Day06.csproj", "{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day06", "Schulteisz.AdventOfCode2021.Day06\Schulteisz.AdventOfCode2021.Day06.csproj", "{64E07BAB-8267-46A0-82BB-B61A5C3AA3F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day07", "Schulteisz.AdventOfCode2021.Day07\Schulteisz.AdventOfCode2021.Day07.csproj", "{7B50E9D8-EC6A-4211-B5DB-6ACE092A1269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day07", "Schulteisz.AdventOfCode2021.Day07\Schulteisz.AdventOfCode2021.Day07.csproj", "{7B50E9D8-EC6A-4211-B5DB-6ACE092A1269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day08", "Schulteisz.AdventOfCode2021.Day08\Schulteisz.AdventOfCode2021.Day08.csproj", "{EE6DFDE3-5439-4EF6-B499-36A6934AFEDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day08", "Schulteisz.AdventOfCode2021.Day08\Schulteisz.AdventOfCode2021.Day08.csproj", "{EE6DFDE3-5439-4EF6-B499-36A6934AFEDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day09", "Schulteisz.AdventOfCode2021.Day09\Schulteisz.AdventOfCode2021.Day09.csproj", "{FC2ACE72-1374-4BB6-A928-DFC5A17456A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day09", "Schulteisz.AdventOfCode2021.Day09\Schulteisz.AdventOfCode2021.Day09.csproj", "{FC2ACE72-1374-4BB6-A928-DFC5A17456A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day10", "Schulteisz.AdventOfCode2021.Day10\Schulteisz.AdventOfCode2021.Day10.csproj", "{EC509362-AD04-4B1E-B6F2-B4EE20A51F00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day10", "Schulteisz.AdventOfCode2021.Day10\Schulteisz.AdventOfCode2021.Day10.csproj", "{EC509362-AD04-4B1E-B6F2-B4EE20A51F00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day11", "Schulteisz.AdventOfCode2021.Day11\Schulteisz.AdventOfCode2021.Day11.csproj", "{AFB0D977-73DF-4F54-9C9E-A1099D577CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day11", "Schulteisz.AdventOfCode2021.Day11\Schulteisz.AdventOfCode2021.Day11.csproj", "{AFB0D977-73DF-4F54-9C9E-A1099D577CD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day12", "Schulteisz.AdventOfCode2021.Day12\Schulteisz.AdventOfCode2021.Day12.csproj", "{7F7749AB-BF10-41E7-9F1B-EE9945912707}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day13", "Schulteisz.AdventOfCode2021.Day13\Schulteisz.AdventOfCode2021.Day13.csproj", "{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day14", "Schulteisz.AdventOfCode2021.Day14\Schulteisz.AdventOfCode2021.Day14.csproj", "{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day15", "Schulteisz.AdventOfCode2021.Day15\Schulteisz.AdventOfCode2021.Day15.csproj", "{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day16", "Schulteisz.AdventOfCode2021.Day16\Schulteisz.AdventOfCode2021.Day16.csproj", "{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +169,46 @@ Global
 		{AFB0D977-73DF-4F54-9C9E-A1099D577CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AFB0D977-73DF-4F54-9C9E-A1099D577CD7}.Release|x64.ActiveCfg = Release|x64
 		{AFB0D977-73DF-4F54-9C9E-A1099D577CD7}.Release|x64.Build.0 = Release|x64
+		{7F7749AB-BF10-41E7-9F1B-EE9945912707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7749AB-BF10-41E7-9F1B-EE9945912707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7749AB-BF10-41E7-9F1B-EE9945912707}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7F7749AB-BF10-41E7-9F1B-EE9945912707}.Debug|x64.Build.0 = Debug|Any CPU
+		{7F7749AB-BF10-41E7-9F1B-EE9945912707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7749AB-BF10-41E7-9F1B-EE9945912707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7749AB-BF10-41E7-9F1B-EE9945912707}.Release|x64.ActiveCfg = Release|Any CPU
+		{7F7749AB-BF10-41E7-9F1B-EE9945912707}.Release|x64.Build.0 = Release|Any CPU
+		{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}.Debug|x64.Build.0 = Debug|Any CPU
+		{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}.Release|x64.ActiveCfg = Release|Any CPU
+		{1CAD90F6-971E-49D2-A9FF-BE911F6E1247}.Release|x64.Build.0 = Release|Any CPU
+		{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}.Debug|x64.Build.0 = Debug|Any CPU
+		{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}.Release|x64.ActiveCfg = Release|Any CPU
+		{957D8A2E-8B57-4D9F-B1F4-64508D2C8ABE}.Release|x64.Build.0 = Release|Any CPU
+		{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}.Debug|x64.Build.0 = Debug|Any CPU
+		{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}.Release|x64.ActiveCfg = Release|Any CPU
+		{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}.Release|x64.Build.0 = Release|Any CPU
+		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Debug|x64.Build.0 = Debug|Any CPU
+		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Release|x64.ActiveCfg = Release|Any CPU
+		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
