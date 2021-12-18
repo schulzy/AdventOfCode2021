@@ -29,6 +29,11 @@
     <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day09\Schulteisz.AdventOfCode2021.Day09.csproj" />
     <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day10\Schulteisz.AdventOfCode2021.Day10.csproj" />
     <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day11\Schulteisz.AdventOfCode2021.Day11.csproj" />
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day12\Schulteisz.AdventOfCode2021.Day12.csproj" />
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day13\Schulteisz.AdventOfCode2021.Day13.csproj" />
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day14\Schulteisz.AdventOfCode2021.Day14.csproj" />
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day15\Schulteisz.AdventOfCode2021.Day15.csproj" />
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day16\Schulteisz.AdventOfCode2021.Day16.csproj" />
     <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj" />
   </ItemGroup>
 
