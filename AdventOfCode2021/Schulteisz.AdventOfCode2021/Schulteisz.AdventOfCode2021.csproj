@@ -9,8 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day01\Schulteisz.AdventOfCode2021.Day01.csproj" />
-    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj" />
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Day01\Schulteisz.AdventOfCode2021.Day01.csproj">
+      <ReferenceSourceTarget></ReferenceSourceTarget>
+    </ProjectReference>
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj">
+      <ReferenceSourceTarget></ReferenceSourceTarget>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
