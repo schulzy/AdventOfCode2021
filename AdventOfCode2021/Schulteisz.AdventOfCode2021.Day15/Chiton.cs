@@ -22,10 +22,10 @@ namespace Schulteisz.AdventOfCode2021.Day15
         {
             IField field = new Field();
             field.GeneratePoints(_contentParser.GetLines("Task.txt"));
-            RegisterManager manager = new RegisterManager();
-            field.StartPoint.FindExit(manager);
+            PathFinder pathFinder = new PathFinder(field);
 
-            return manager.BestRoute.PointsSum - field.StartPoint.RiskLevel;
+
+            return pathFinder.CountLowestRisk();
         }
     }
 }

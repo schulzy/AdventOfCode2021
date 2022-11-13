@@ -11,25 +11,87 @@ namespace Schulteisz.AdventOfCode2021.Day15
         private CavernPoint _actualPoint;
         Dictionary<(int, int), CavernPoint> _cavernPoints = new Dictionary<(int, int), CavernPoint>();
         public CavernPoint StartPoint { get; private set; }
-        public CavernPoint FinshedPoint { get; private set; }
+        public CavernPoint FinishPoint { get; private set; }
+        public int [,] SimpleMap { get; private set; }
         public void GeneratePoints(IList<string> lines)
         {
-            for (int y = 0; y < lines.Count; y++)
+            int yMax = lines.Count;
+            int xMax = lines[0].Length;
+            SimpleMap = new int[xMax, yMax];
+            for (int y = 0; y < yMax; y++)
             {
-                for (int x = 0; x < lines[y].Length; x++)
+                for (int x = 0; x < xMax; x++)
                 {
-                    _cavernPoints.Add((x, y), new CavernPoint(x, y, int.Parse(lines[y][x].ToString()), this));
+                    int riskLevel = int.Parse(lines[y][x].ToString());
+                    SimpleMap[x, y] = riskLevel;
+                    _cavernPoints.Add((x, y), new CavernPoint(x, y, riskLevel, this));
                 }
             }
 
             SetStart(0, 0);
-            
+            SetFinished(xMax - 1, yMax - 1);
             
             _cavernPoints[(lines[0].Length - 1, lines.Count - 1)].State = State.Finish;
             foreach (var (point, item) in _cavernPoints)
             {
                 item.SetNeighbours();
             }
+        }
+
+        public void ExtendField(int multiplier)
+        {
+            int xMax = SimpleMap.GetLength(0) * multiplier;
+            int yMax = SimpleMap.GetLength(1) * multiplier;
+            int[,] extendedMap = new int[xMax, yMax];
+            _cavernPoints.Clear();
+            for (int y = 0; y < yMax; y++)
+            {
+                for (int x = 0; x < xMax; x++)
+                {
+                    int riskLevel = GetRiskLevel(x, y);
+                    extendedMap[x, y] = riskLevel;
+                    _cavernPoints.Add((x, y), new CavernPoint(x, y, riskLevel, this));
+                }
+            }
+
+            SetStart(0, 0);
+            SetFinished(xMax - 1, yMax - 1);
+
+            foreach (var (point, item) in _cavernPoints)
+            {
+                item.SetNeighbours();
+            }
+        }
+
+        private int GetRiskLevel(int x, int y)
+        {
+            int xMax = SimpleMap.GetLength(0);
+            int yMax = SimpleMap.GetLength(1);
+            int tempX = x;
+            int tempY = y;
+            if (x < xMax && y < yMax)
+                return SimpleMap[x, y];
+
+            if (x >= xMax)
+                return GetNextValue(_cavernPoints[(x - xMax, y)].RiskLevel);
+
+            if (y >= yMax)
+                return GetNextValue(_cavernPoints[(x, y-yMax)].RiskLevel);
+
+            throw new ArgumentException("Something is wrong with the values");
+        }
+
+        private int GetNextValue(int riskLevel)
+        {
+            if (riskLevel == 9)
+                return 1;
+
+            return ++riskLevel;
+        }
+
+        public CavernPoint GetPoint(int x, int y)
+        {
+            return _cavernPoints.GetValueOrDefault((x, y));
         }
 
         private void SetStart(int x, int y)
@@ -40,35 +102,8 @@ namespace Schulteisz.AdventOfCode2021.Day15
 
         private void SetFinished(int x, int y)
         {
-            FinshedPoint = _cavernPoints[(x, y)];
-            FinshedPoint.State = State.Finish;
-        }
-
-        public void FindExit()
-        {
-            //if (registerManager.Actual.CavernPointsHash.Contains((X, Y)))
-            //    return;
-            //if (registerManager.Append(this))
-            //{
-            //    if (Up is not null)
-            //        Up.FindExit(registerManager);
-
-            //    if (Down is not null)
-            //        Down.FindExit(registerManager);
-
-            //    if (Left is not null)
-            //        Left.FindExit(registerManager);
-
-            //    if (Right is not null)
-            //        Right.FindExit(registerManager);
-
-            //}
-            //registerManager.Remove();
-        }
-
-        public CavernPoint GetPoint(int x, int y)
-        {
-            return _cavernPoints.GetValueOrDefault((x, y));
+            FinishPoint = _cavernPoints[(x, y)];
+            FinishPoint.State = State.Finish;
         }
     }
 }

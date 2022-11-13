@@ -18,7 +18,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
             try
             {
                 long result = sut.Run();
-                Assert.AreEqual(40, result);
+                Assert.AreEqual(523, result);
             }
             catch (System.Exception)
             {
@@ -34,7 +34,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             ChitonHard sut = new ChitonHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(2399822193707, result);
+            Assert.AreEqual(2876, result);
         }
 
         [TestMethod]
@@ -64,7 +64,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             ChitonHard sut = new ChitonHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(2188189693529, result);
+            Assert.AreEqual(315, result);
         }
 
         internal class LocalContentParser : IContentParser

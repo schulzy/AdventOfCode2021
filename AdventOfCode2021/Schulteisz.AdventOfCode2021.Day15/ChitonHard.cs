@@ -9,18 +9,23 @@ namespace Schulteisz.AdventOfCode2021.Day15
 {
     public class ChitonHard : IDailyTask
     {
-        private IContentParser contentParser;
+        private IContentParser _contentParser;
 
         public ChitonHard(IContentParser contentParser)
         {
-            this.contentParser = contentParser;
+            _contentParser = contentParser;
         }
 
         public string Name => "Chiton Hard";
 
         public long Run()
         {
-            throw new NotImplementedException();
+            IField field = new Field();
+            field.GeneratePoints(_contentParser.GetLines("Task.txt"));
+            field.ExtendField(5);
+            PathFinder pathFinder = new PathFinder(field);
+            
+            return pathFinder.CountLowestRisk();
         }
     }
 }
