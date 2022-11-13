@@ -49,28 +49,6 @@ namespace Schulteisz.AdventOfCode2021.Day15
             return _hash;
         }
 
-        public void FindExit(RegisterManager registerManager)
-        {
-            if (registerManager.Actual.CavernPointsHash.Contains((X,Y)))
-                return;
-            if (registerManager.Append(this))
-            {
-                if (Up is not null)
-                    Up.FindExit(registerManager);
-
-                if (Down is not null)
-                    Down.FindExit(registerManager);
-
-                if (Left is not null)
-                    Left.FindExit(registerManager);
-
-                if (Right is not null)
-                    Right.FindExit(registerManager);
-
-            }
-            registerManager.Remove();
-        }
-
         public override bool Equals(object? obj)
         {
             return obj?.GetHashCode() == GetHashCode();
