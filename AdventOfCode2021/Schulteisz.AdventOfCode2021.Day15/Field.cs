@@ -8,7 +8,6 @@ namespace Schulteisz.AdventOfCode2021.Day15
 {
     internal class Field : IField
     {
-        private CavernPoint _actualPoint;
         Dictionary<(int, int), CavernPoint> _cavernPoints = new Dictionary<(int, int), CavernPoint>();
         public CavernPoint StartPoint { get; private set; }
         public CavernPoint FinishPoint { get; private set; }

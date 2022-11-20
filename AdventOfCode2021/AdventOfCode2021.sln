@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
@@ -42,6 +42,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day15", "Schulteisz.AdventOfCode2021.Day15\Schulteisz.AdventOfCode2021.Day15.csproj", "{FC1B5C68-40E5-40A4-8B4B-5DD106D8F5A4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schulteisz.AdventOfCode2021.Day16", "Schulteisz.AdventOfCode2021.Day16\Schulteisz.AdventOfCode2021.Day16.csproj", "{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulteisz.AdventOfCode2021.Day17", "Schulteisz.AdventOfCode2021.Day17\Schulteisz.AdventOfCode2021.Day17.csproj", "{7B21EA55-9937-421C-AD60-9EA72455E31D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -211,6 +213,14 @@ Global
 		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Release|x64.ActiveCfg = Release|x64
 		{1153BE5F-44CF-4901-AE99-0A456DBD1F4D}.Release|x64.Build.0 = Release|x64
+		{7B21EA55-9937-421C-AD60-9EA72455E31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B21EA55-9937-421C-AD60-9EA72455E31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B21EA55-9937-421C-AD60-9EA72455E31D}.Debug|x64.ActiveCfg = Debug|x64
+		{7B21EA55-9937-421C-AD60-9EA72455E31D}.Debug|x64.Build.0 = Debug|x64
+		{7B21EA55-9937-421C-AD60-9EA72455E31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B21EA55-9937-421C-AD60-9EA72455E31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B21EA55-9937-421C-AD60-9EA72455E31D}.Release|x64.ActiveCfg = Release|x64
+		{7B21EA55-9937-421C-AD60-9EA72455E31D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

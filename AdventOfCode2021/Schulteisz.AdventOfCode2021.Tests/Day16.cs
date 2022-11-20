@@ -16,7 +16,7 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             PacketDecoder sut = new PacketDecoder(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(-1, result);
         }
 
         [TestMethod]
@@ -26,19 +26,19 @@ namespace Schulteisz.AdventOfCode2021.Tests
 
             PacketDecoderHard sut = new PacketDecoderHard(contentParser);
             long result = sut.Run();
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(-1, result);
         }
 
         [TestMethod]
         public void Task1Predefined()
         {
-
+            Assert.Fail();
         }
 
         [TestMethod]
         public void Task2Predefined()
         {
-
+            Assert.Fail();
         }
     }
 }
