@@ -15,4 +15,7 @@
     <EmbeddedResource Include="Task.txt" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Schulteisz.AdventOfCode2021.Interfaces\Schulteisz.AdventOfCode2021.Interfaces.csproj" />
+  </ItemGroup>
 </Project>
