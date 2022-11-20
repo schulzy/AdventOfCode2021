@@ -32,7 +32,6 @@
         }
         public long GetIncompleteScore()
         {
-            long score = 0;
             List<long> scores = new List<long>();
 
             foreach (var item in _syntaxLine)
